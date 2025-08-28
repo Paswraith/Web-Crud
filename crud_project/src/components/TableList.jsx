@@ -56,7 +56,7 @@ const TableList = ({ handleOpen, searchTerm }) => {
                 </button>
             </td>
           <td>
-              <button onClick={() => handleOpen('edit')} className='btn btn-secondary'>Update</button>
+              <button onClick={() => handleOpen('edit', client)} className='btn btn-secondary'>Update</button>
           </td>
           <td>
               <button className='btn btn-error'>Delete</button>
